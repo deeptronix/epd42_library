@@ -4,4 +4,4 @@ This extension enables a more cautious use of Direct Updates, while preserving a
 It also enables the use of the ESP32 as a compatible board, but be careful if using the PSRAM or the SD card. The buses are shared...\
 To use the ESP32 board, in the file "epdif.h" comment out #define AVR_ARCH. In "SPI_adapter.h" you will find the SPI pin definitions.
 
-See my [website article]() for a more in-depth explanation of the theory behind the operation or to see the results of my analysis, or [contact me](https://deeptronix.wordpress.com/contact/) if you get stuck somewhere while using the library.
+#### See my [website article]() for a more in-depth explanation of the theory behind the operation or to see the results of my analysis, or [contact me](https://deeptronix.wordpress.com/contact/) if you get stuck somewhere while using the library.
