@@ -386,9 +386,9 @@ void Epd::SetLutQuickAndHealthy(bool reset_cnt){
 void Epd::drawGrayShades(const uint8_t* buffer_black, int w, int l){
 	uint8_t m, n, old_m, old_n;
 	getCurrSpeedCoeff(m, n);
+	old_m = m;
+	old_n = n;
 	if(m != 5  ||  n != 1){
-		old_m = m;
-		old_n = n;
 		Reset();
 	  Init(5, 1);		// the waveforms are based on this refresh rate!
 	}
