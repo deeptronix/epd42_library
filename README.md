@@ -5,4 +5,3 @@ It also enables the use of the ESP32 as a compatible board, but be careful if us
 To use the ESP32 board, in the file "epdif.h" comment out #define AVR_ARCH (which is default for Teensy boards). In that same file you will find the SPI pin definitions for both boards.
 
 #### See my [website article](https://deeptronix.wordpress.com/2021/04/17/video-and-gray-shades-on-epd/) on the subject for a more in-depth explanation of the theory behind the operation, or to see the results of my analysis.
-[Contact me](https://deeptronix.wordpress.com/contact/) if you get stuck somewhere while using the library or if you have questions.
