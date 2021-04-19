@@ -86,6 +86,7 @@ void setup(){
   
   epd.drawGrayShades(img_buffer, img_width, img_height);
   epd.WaitUntilIdle();
+  epd.Sleep();
   
   #if PERFORMANCE_PROFILING
     Serial.println("EPD gray shade drawing took " + String(millis() - q) + "ms.\nStopped.");
