@@ -4,4 +4,7 @@ This extension enables a more cautious use of Direct Updates, while preserving a
 It also enables the use of the ESP32 as a compatible board, but be careful if using the PSRAM or the SD card; the buses are shared...\
 To use the ESP32 board, in the file "epdif.h" comment out #define AVR_ARCH (which is default for Teensy boards). In that same file you will find the SPI pin definitions for both boards.
 
+In the provided Arduino examples, you may find that you also need an additional library, called "Dither.h". Not to worry, [you can download it from here](https://github.com/deeptronix/dithering_halftoning) (a previous repository).
+
 #### See my [website article](https://deeptronix.wordpress.com/2021/04/17/video-and-gray-shades-on-epd/) on the subject for a more in-depth explanation of the theory behind the operation, or to see the results of my analysis.
+
